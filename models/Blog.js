@@ -15,6 +15,10 @@ Blog.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     content: {
       type: DataTypes.STRING,
     },
@@ -24,7 +28,7 @@ Blog.init(
       defaultValue: DataTypes.NOW,
     },
     add_comment: {
-      type: DataTypes.FLOAT,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     user_id: {

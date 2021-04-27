@@ -3,7 +3,7 @@ const newFormHandler = async (event) => {
   
     const name = document.querySelector('#blog-name').value.trim();
     const add_comment = document.querySelector('#blog-comment').value.trim();
-    const content = document.querySelector('#blog-desc').value.trim();
+    const content = document.querySelector('#blog-cont').value.trim();
   
     if (name && add_comment && content) {
       const response = await fetch(`/api/blog`, {
