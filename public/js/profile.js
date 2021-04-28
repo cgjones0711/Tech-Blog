@@ -1,14 +1,14 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
   
-    const name = document.querySelector('#blog-name').value.trim();
+    const title = document.querySelector('#blog-title').value.trim();
     const add_comment = document.querySelector('#blog-comment').value.trim();
     const description = document.querySelector('#blog-desc').value.trim();
   
-    if (name && add_comment && description) {
-      const response = await fetch(`/api/blog`, {
+    if (title && add_comment && description) {
+      const response = await fetch(`/api/blogs`, {
         method: 'POST',
-        body: JSON.stringify({ name, description, add_comment }),
+        body: JSON.stringify({ title, description, add_comment }),
         headers: {
           'Content-Type': 'application/json',
         },
@@ -26,7 +26,7 @@ const newFormHandler = async (event) => {
     if (event.target.hasAttribute('data-id')) {
       const id = event.target.getAttribute('data-id');
   
-      const response = await fetch(`/api/blog/${id}`, {
+      const response = await fetch(`/api/blogs/${id}`, {
         method: 'DELETE',
       });
   
