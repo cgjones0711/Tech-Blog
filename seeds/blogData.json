@@ -1,20 +1,20 @@
 [
   {
-    "title": "You Me and a computer",
+    "name": "You Me and a computer",
 
-    "description": "This is a great place to chat with other developers.",
-    "add_comment": "This place is great!"
+    "description": "This is a great place to chat with other developers."
+    
   },
   {
-    "title": "Debugs",
+    "name": "Debugs",
 
-    "description": "This new debugging platoform !",
-    "add_comment": "Man this was a nice way to figure out my bugs"
+    "description": "This new debugging platoform !"
+    
   },
   {
-    "title": "Tech for dummies",
+    "name": "Tech for dummies",
 
-    "description": "An all access book on how to become a great coder .",
-    "add_comment": "I sure had fun and learned a ton!"
+    "description": "An all access book on how to become a great coder ."
+   
   }
 ]

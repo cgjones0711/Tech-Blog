@@ -10,15 +10,12 @@
     <p>
       <span for="img" aria-label="laptop">💻</span>
      
-      <span class="form input">{{format_text blog.add_comment}}</span>
+      <span class="form input">{{ blog.description}}</span>
       
     </p>
     <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
   </div>
   <div class="col-md-7">
-    <p>
-      {{blog.description}}
-    </p>
   </div>
 </div>
 {{/each}}
