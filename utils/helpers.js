@@ -3,9 +3,9 @@ module.exports = {
       // Format date as MM/DD/YYYY
       return date.toLocaleDateString();
     },
-    format_amount: (amount) => {
+    format_text: (text) => {
       // format large numbers with commas
-      return parseInt(amount).toLocaleString();
+      return (text).toLocaleString();
     },
     get_emoji: () => {
       const randomNum = Math.random();

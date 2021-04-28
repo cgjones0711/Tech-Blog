@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cgjones0711/Tech-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
     "eslint": "^7.25.0",
     "exphbs": "^1.2.0",
     "express": "^4.17.1",

@@ -3,12 +3,12 @@ const newFormHandler = async (event) => {
   
     const name = document.querySelector('#blog-name').value.trim();
     const add_comment = document.querySelector('#blog-comment').value.trim();
-    const content = document.querySelector('#blog-cont').value.trim();
+    const description = document.querySelector('#blog-desc').value.trim();
   
-    if (name && add_comment && content) {
+    if (name && add_comment && description) {
       const response = await fetch(`/api/blog`, {
         method: 'POST',
-        body: JSON.stringify({ name, add_comment, content }),
+        body: JSON.stringify({ name, add_comment, description }),
         headers: {
           'Content-Type': 'application/json',
         },

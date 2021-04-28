@@ -8,16 +8,16 @@
       <a href="/blog/{{blog.id}}">{{blog.name}}</a>
     </h2>
     <p>
-      <span for="img" aria-label="money">💲</span>
+      <span for="img" aria-label="laptop">💻</span>
      
-      <span class="dollar-amount">{{format_amount blog.add_comment}}</span>
-      needed!
+      <span class="form input">{{format_text blog.add_comment}}</span>
+      
     </p>
     <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
   </div>
   <div class="col-md-7">
     <p>
-      {{blog.content}
+      {{blog.description}}
     </p>
   </div>
 </div>

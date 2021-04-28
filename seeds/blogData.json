@@ -1,27 +1,20 @@
 [
-    {
-      "title": "You Me and a computer",
-      "name": "Jack",
-      "content": "This is a great place to chat with other developers.",
-      "add_comment": "This place is great!"
-      
-    },
-    {
-      "title": "Debugs",
-      "name": "Daniella",
-      "content": "This new debugging platoform !",
-      "add_comment": "Man this was a nice way to figure out my bugs" 
-      
+  {
+    "title": "You Me and a computer",
 
+    "description": "This is a great place to chat with other developers.",
+    "add_comment": "This place is great!"
+  },
+  {
+    "title": "Debugs",
 
-    },
-    {
-      "title": "Tech for dummies",
-      "name": "Maria",
-      "content": "An all access book on how to become a great coder .",
-      "add_comment": "I sure had fun and learned a ton!"
-      
+    "description": "This new debugging platoform !",
+    "add_comment": "Man this was a nice way to figure out my bugs"
+  },
+  {
+    "title": "Tech for dummies",
 
-    }
-  ]
-  
+    "description": "An all access book on how to become a great coder .",
+    "add_comment": "I sure had fun and learned a ton!"
+  }
+]
