@@ -41,4 +41,9 @@ cgjones0711@gmail.com
 
 https://github.com/cgjones0711/Tech-Blog.git
 
+## Video Display
+https://drive.google.com/file/d/1IEJ4lNM4S_YgprT4xrqDI18sMhp1Do_k/view?usp=sharing
 
+Comment Function not working currently 
+
+<img src="./public/tech.png" alt="Weather Forecast">
