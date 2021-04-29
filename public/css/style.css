@@ -1,25 +1,54 @@
-header, .blog:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .no-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #1b89bc;
-    text-decoration: none;
-    font-size: 100%;
-  }
-  
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
-  
-  .dollar-amount {
-    color: #056605;
-    font-weight: bold;
-    margin-left: -5px;
-  }
-  
+* { background-color:rgb(12, 227, 173); 
+  color: white;
+}
+
+.col-md-6{
+border: solid;
+border-radius: 1rem;
+border-color:black;
+margin: 5px;
+}
+
+.col-md-5{
+border: solid;
+border-radius: 1rem;
+border-color:black;
+margin: 5px;
+}
+
+.col-md-7{
+ 
+
+
+}
+
+.p{
+font-size:2px;
+}
+
+header{
+border-bottom: 5px solid;
+border-color: black;
+
+}
+
+
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
