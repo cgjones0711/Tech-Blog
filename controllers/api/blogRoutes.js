@@ -2,6 +2,25 @@ const router = require('express').Router();
 const { Blog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
+
+router.get('/', (req, res) => {
+  Blog.findAll()
+  .then ((recipes)=> res.json(recipes))
+  .catch((err)=> res.status(500).json
+  (err));
+
+  
+});
+
+
+router.get("/:id", (req, res) => {
+  Blog.findByPk(req.params.id, {  
+  })
+    .then((recipeData) => res.json(recipeData))
+    .catch((err) => res.status(500).json(err));
+  
+});
+
 router.post('/', withAuth, async (req, res) => {
   try {
     const newBlog = await Blog.create({
