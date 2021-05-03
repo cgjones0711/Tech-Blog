@@ -1,17 +1,17 @@
 [
   {
   "blog_id": 1,
-  "name": "Scooby Doo",
-  "comment": "This is a great place to chat with other developers."
+  "name": "Michael",
+  "comment": "I really had a lot of trouble at the begining, but this service rocks!"
 },
 {
       "blog_id": 2,
-      "name": "Shaggy",
-      "comment": "This new debugging platoform !"
+      "name": "Charlene",
+      "comment": "I cant believe it took me so long to find out about this place!"
   },
   {
   "blog_id": 3,
-    "name": "Velma",
-    "comment": "An all access book on how to become a great coder ."
+    "name": "Miguel",
+    "comment": "You wont be able to stop coming here for refrences on a project."
   }
 ]
