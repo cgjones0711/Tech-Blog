@@ -29,14 +29,16 @@ router.get('/', async (req, res) => {
 
 
 router.get('/comment/:id', async (req , res) => {
- const commentData = await Comment.findByPk(req.params.id, {
+ const commentData = await Blog.findByPk(req.params.id, {
   include: [
     {
-    model: Blog,
-    attributes: ['name'],
+    model: Comment,
+  
     },
   ],
  });
+ const comment = commentData.get({ plain: true });
+ console.log(comment);
  res.render('comment', {
   ...comment,
   logged_in: req.session.logged_in
